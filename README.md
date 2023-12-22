@@ -1,7 +1,12 @@
 # laravel-lumen-crud-wizard
 Url query language lib for RESTful CRUD (micro) services using lumen/laravel 8-9-10
 
-# Build RESTful services with lightning speed for any number of resources and relations using rest crud library that offers revolutionary filtering (and aggregating) capabilities for resources and their relations.
+## Build RESTful services with lightning speed for any number of resources and relations using rest crud library that offers revolutionary filtering (and aggregating) capabilities for resources and their relations.
+
+It includes:
+
+    url query builder that is used to encode the request url in the request initiator project
+    url query parser or translator into sql for the request target project
 
 It features:
 
