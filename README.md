@@ -1,17 +1,30 @@
 # laravel-lumen-crud-wizard
-Url query language lib for RESTful CRUD (micro) services using lumen/laravel 8-9-10
+## Url query language lib for RESTful CRUD (micro) services using lumen/laravel 8-9-10
 
-## Build RESTful services with lightning speed for any number of resources and relations using rest crud library that offers revolutionary filtering (and aggregating) capabilities for resources and their relations.
+### Build RESTful services with lightning speed for any number of resources and relations using rest crud library that offers revolutionary filtering (and aggregating) capabilities for resources and their relations.
 
-It includes:
+## You get:
 
-    url query builder that is used to encode the request url in the request initiator project
-    url query parser or translator into sql for the request target project
+- crud-wizard-builder: url query builder that is used to encode the request url in the request initiator project + documentation (min PHP 7.4 or 8.0)
+- laravel-crud-wizard: url query parser or translator into sql for the request target project + documentation (min PHP 8.0)
+- laravel 9 demo project that uses laravel-crud-wizard
 
-It features:
+The code follows **PSR 12** coding standard and **DRY** principle.
 
-## multi sorting on the resource's columns only
-## aggregations
+Can be used with **laravel/lumen 8-9-10** and **sql** databases (tested on mysql atm).
+
+Can be used to generate sql for **Elasticsearch**.
+
+**The lib is proprietary and it can be used only after an agreement.**
+
+**On request we can issue a test token to be used on a laravel 9 example project that has a dummy db.**
+
+**If interested, please contact us https://macropay.net/contact/**
+
+## Features:
+
+### multi sorting on the resource's columns only
+### aggregations
 
     sums,
   
@@ -33,7 +46,7 @@ It features:
   
     havings (including counts, sums and averages),
 
-## filters for resource and relations:
+### filters for resource and relations:
 
     from (inclusive),
   
@@ -51,16 +64,16 @@ It features:
   
     contains (not fulltext search),
 
-## pagination (LengthAwarePaginator)
+### pagination (LengthAwarePaginator)
 
     page,
   
     limit,
 
-## sql debugging
-## error logging
-## in header query
-## conditions on relations
+### sql debugging
+### error logging
+### in header query
+### conditions on relations
 
     with/without relations,
   
@@ -74,10 +87,10 @@ It features:
   
     relations filters,
 
-## update or create  a resource
-## get resource
-## delete
-## custom relations
+### update or create  a resource
+### get resource
+### delete resource
+### custom relations
 
     HasManySelfThroughSelf,
   
@@ -90,18 +103,3 @@ It features:
     HasOneThrough2LinkTables,
   
     HasOneThrough3LinkTables,
-
-
-
-
-The code follows **PSR 12** coding standard and **DRY** principle.
-
-Can be used with **laravel/lumen 8-9-10** and **sql** databases (tested on mysql atm).
-
-Can be used to generate sql for **Elasticsearch**.
-
-**The lib is proprietary and it can be used only after an agreement.**
-
-**On request we can issue a test token to be used on a dummy db**
-
-**If interested, please contact us https://macropay.net/contact/**
