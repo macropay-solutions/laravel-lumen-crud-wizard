@@ -17,7 +17,7 @@ Can be used to generate sql for **Elasticsearch**.
 
 **The lib is proprietary and it can be used only after an agreement.**
 
-**On request we can issue a test token to be used on a laravel 9 example project that has a dummy db.**
+**On request we can issue a test token to be used on a laravel 9 DEMO project that has a dummy db.**
 
 **If interested, please contact us https://macropay.net/contact/**
 
