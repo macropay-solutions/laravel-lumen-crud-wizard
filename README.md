@@ -23,7 +23,7 @@ Can be used to generate sql for **Elasticsearch**.
 
 ## Features:
 
-### multi sorting on the resource's columns only
+### multi sorting on the resource's columns and on its agregations
 ### aggregations
 
     sums,
