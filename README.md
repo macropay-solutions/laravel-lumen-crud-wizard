@@ -5,8 +5,8 @@
 
 ## You get:
 
-- crud-wizard-builder: url query builder that is used to encode the request url in the request initiator project + documentation (min PHP 7.4 or 8.0)
-- laravel-crud-wizard: url query parser or translator into sql for the request target project + documentation (min PHP 8.0)
+- crud-wizard-builder: request builder that is used to encode the request in the request initiator project + documentation (min PHP 7.4 or 8.0)
+- laravel-crud-wizard: request parser or translator into sql for the request target project + documentation (min PHP 8.0)
 - laravel 9 demo project that uses laravel-crud-wizard
 
 The code follows **PSR 12** coding standard and **DRY** principle.
