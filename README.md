@@ -33,15 +33,23 @@ Can be used to generate sql for **Elasticsearch**.
 
     sums,
   
-    averages,
+    averages,    
+  
+    minimums,
+    
+    maximums,
   
     distinct column(s) fetching,
   
-    group by (including counts, sums and averages),
+    group by (including counts, sums, averages, minimums, maximums),
   
     sub totals,
   
     sub averages,
+      
+    sub minimums,
+      
+    sub maximums,
   
     count distinct,
   
@@ -49,7 +57,7 @@ Can be used to generate sql for **Elasticsearch**.
   
     count relations,
   
-    havings (including counts, sums and averages),
+    havings (including counts, sums, averages, minimums, maximums),
 
 ### filters for resource and relations:
 
