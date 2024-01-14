@@ -27,7 +27,7 @@ Can be used to generate sql for **Elasticsearch**.
 
 ## Features:
 
-### list response as json or xls (with relations in different sheets)
+### list response as json or xls (with relations in different sheets) controlled via request header `Accept application/xls or application/json`
 ### composite primary key using user defined separator: 12_35 or 34__56 etc
 ### multi sorting on the resource's columns and on its agregations
 ### aggregations
