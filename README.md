@@ -143,3 +143,10 @@ Can be used to generate sql for **Elasticsearch**.
 #### 7. Sql debugging/logging
 
 #### 8. Error handling/logging
+
+## Usage:
+
+Changes required for the first resource on laravel 9 for example:
+![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/eefd0dd6-3762-4241-876a-d32cc27b690d)
+With green are the changes needed for a new resource (except ResourceController).
+
