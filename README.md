@@ -5,7 +5,7 @@
 [Image from](https://www.linkedin.com/pulse/thanks-we-too-busy-daniel-white)
 
 
-### Build RESTful services with lightning speed for any number of resources and relations using rest crud library that offers revolutionary filtering (and aggregating) capabilities for resources and their relations.
+#### Build RESTful services with lightning speed for any number of resources and relations using rest crud library that offers revolutionary filtering (and aggregating) capabilities for resources and their relations.
 
 ## You get:
 
@@ -25,12 +25,37 @@ Can be used to generate sql for **Elasticsearch**.
 
 **If interested, please contact us https://macropay.net/contact/**
 
+
+
 ## Features:
 
-### list response as json or xls (with relations in different sheets) controlled via request header `Accept application/xls or application/json`
-### composite primary key using user defined separator: 12_35 or 34__56 etc
-### multi sorting on the resource's columns and on its agregations
-### aggregations
+#### 1. Create resource
+- only with allowed fields
+
+#### 2. Read/Get resource
+- also with relations
+
+#### 3. Update/Upsert resource
+- only with allowed fields (or create if not found, if incrementing = false)
+
+#### 4. Delete resource
+- only if allowed
+
+#### 5. List resources
+
+-  **list resource** /resource?...
+
+-  **list the resource's relation (as a resource)** /resource/{pk}/{relationName}?...
+
+-  **list response as JSON or XLS**
+
+   (with relations in different sheets) controlled via request header `Accept application/xls or application/json`
+
+-  **multi sorting on the resource's columns and on its agregations**
+
+-  **in header query**
+
+-  **aggregations**
 
     sums,
   
@@ -60,7 +85,7 @@ Can be used to generate sql for **Elasticsearch**.
   
     havings (including counts, sums, averages, minimums, maximums),
 
-### filters for resource and relations:
+-  **filters for resource and relations:**
 
     from (inclusive),
   
@@ -78,16 +103,13 @@ Can be used to generate sql for **Elasticsearch**.
   
     contains (not fulltext search),
 
-### pagination (LengthAwarePaginator)
+- **pagination** (LengthAwarePaginator)
 
     page,
   
     limit,
-
-### sql debugging
-### error logging
-### in header query
-### conditions on relations
+    
+-  **conditions on relations**
 
     with/without relations,
   
@@ -101,10 +123,7 @@ Can be used to generate sql for **Elasticsearch**.
   
     relations filters,
 
-### update or create  a resource
-### get resource
-### delete resource
-### custom relations
+-  **custom NEW relations**
 
     HasManySelfThroughSelf,
   
@@ -117,3 +136,10 @@ Can be used to generate sql for **Elasticsearch**.
     HasOneThrough2LinkTables,
   
     HasOneThrough3LinkTables,
+
+#### 6. Composite primary key
+- using user defined separator (default _): 12_35
+
+#### 7. Sql debugging/logging
+
+#### 8. Error handling/logging
