@@ -32,10 +32,10 @@ Can be used to generate sql for **Elasticsearch**.
 #### 1. Create resource
 - only with allowed fields
 
-#### 2. Read/Get resource
+#### 2. Read / Get resource
 - also with relations
 
-#### 3. Update/Upsert resource
+#### 3. Update / Upsert resource
 - only with allowed fields (or create if not found, if incrementing = false)
 
 #### 4. Delete resource
