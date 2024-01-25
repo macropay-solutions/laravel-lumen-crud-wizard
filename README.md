@@ -41,7 +41,11 @@ Can be used to generate sql for **Elasticsearch**.
 #### 4. Delete resource
 - only if allowed
 
-#### 5. List resources
+#### 5. Bulk delete resource
+- only if codded using $service->list({Controlled filters})->delete();
+- not builtin
+
+#### 6. List resources
 
 -  **list resource** /resource?...
 
@@ -137,12 +141,12 @@ Can be used to generate sql for **Elasticsearch**.
   
     HasOneThrough3LinkTables,
 
-#### 6. Composite primary key
+#### 7. Composite primary key
 - using user defined separator (default _): 12_35
 
-#### 7. Sql debugging/logging
+#### 8. Sql debugging/logging
 
-#### 8. Error handling/logging
+#### 9. Error handling/logging
 
 ## Usage:
 
