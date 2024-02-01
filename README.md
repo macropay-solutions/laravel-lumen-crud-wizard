@@ -1,8 +1,5 @@
 # laravel-lumen-crud-wizard
 ## Url query language lib for RESTful CRUD (micro) services using lumen/laravel 8-9-10
-![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/f0ac4fef-55b8-494d-87b5-6fbb2d17e341)
-
-[Image from](https://www.linkedin.com/pulse/thanks-we-too-busy-daniel-white)
 
 
 #### Build RESTful services with lightning speed for any number of resources and relations using rest crud library that offers revolutionary filtering (and aggregating) capabilities for resources and their relations.
