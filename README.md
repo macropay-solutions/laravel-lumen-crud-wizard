@@ -4,6 +4,8 @@
 
 #### Build RESTful services with lightning speed for any number of resources and relations using rest crud library that offers revolutionary filtering (and aggregating) capabilities for resources and their relations.
 
+```Long story short: so you don't have to code the filters by hand.```
+
 ## You get:
 
 - crud-wizard-builder: request builder that is used to encode the request in the request initiator project + documentation (min PHP 7.4 or 8.0)
