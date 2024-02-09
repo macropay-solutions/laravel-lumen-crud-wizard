@@ -35,7 +35,7 @@ Can be used to generate sql for **Elasticsearch**.
 - also with relations
 
 #### 3. Update / Upsert resource
-- only with allowed fields (or create if not found, if incrementing = false)
+- only with allowed fields (or create if not found, if incrementing = false or by custom condition if the identifier is other than the pk)
 
 #### 4. Delete resource
 - only if allowed
