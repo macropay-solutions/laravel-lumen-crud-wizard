@@ -100,7 +100,7 @@ Can be used to generate sql for **Elasticsearch**.
   
     starts with,
   
-    is null,
+    is null (inluding also (column in (...) OR column IS NULL) condition),
   
     is not null,
   
