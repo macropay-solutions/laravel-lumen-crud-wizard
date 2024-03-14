@@ -6,6 +6,8 @@
 
 ```Long story short: so you don't have to code the filters by hand.```
 
+For free version see [Laravel Crud Wizard Free](https://github.com/macropay-solutions/laravel-crud-wizard-free)
+
 ## You get:
 
 - crud-wizard-builder: request builder that is used to encode the request in the request initiator project + documentation (min PHP 7.4 or 8.0)
