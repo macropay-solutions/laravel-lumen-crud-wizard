@@ -34,7 +34,7 @@ Can be used to generate sql for **Elasticsearch**.
 - only with allowed fields
 
 #### 2. Read / Get resource
-- also with relations
+- also with relations and with appends
 
 #### 3. Update / Upsert resource
 - only with allowed fields (or create if not found, if incrementing = false or by custom condition if the identifier is other than the pk)
@@ -108,15 +108,19 @@ Can be used to generate sql for **Elasticsearch**.
   
     contains (not fulltext search),
 
-- **pagination** (LengthAwarePaginator)
+- **pagination** (LengthAwarePaginator as default or Paginator)
 
     page,
   
     limit,
+
+    simplePaginate (request response without total count)
     
 -  **conditions on relations**
 
     with/without relations,
+
+    with appends, (need custom codding)
   
     with distinct relations,
   
