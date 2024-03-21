@@ -16,7 +16,7 @@ For free version see [Laravel Crud Wizard Free](https://github.com/macropay-solu
 
 The code follows **PSR 12** coding standard and **DRY** principle.
 
-Can be used with **laravel/lumen 8-9-10-11** and **sql** databases (tested on mysql but can also support sqlite, sqlsrv, pgsql, mariadb).
+Can be used with **laravel/lumen 8-9-10-11** and **sql** databases (tested on mysql/mariadb but can also support sqlite, sqlsrv, pgsql).
 
 Can be used to generate sql for **Elasticsearch**.
 
@@ -72,7 +72,7 @@ Can be used to generate sql for **Elasticsearch**.
   
     distinct column(s) fetching,
   
-    group by (including counts, sums, averages, minimums, maximums),
+    group by (including relation counts, sums, averages, minimums, maximums, date cast able columns, but if index required on filtering is enabled then first group by column MUST be indexed and not casted; if distincts are used then group by is disregarded),
   
     sub totals,
   
@@ -145,6 +145,11 @@ Can be used to generate sql for **Elasticsearch**.
     HasOneThrough2LinkTables,
   
     HasOneThrough3LinkTables,
+   
+-  **MVCC DB "select count(*) from table" slow query solution**
+
+    In worst case scenario will estimate the count rather than execute the count without index filter
+  
 
 #### 7. Composite primary key
 - using user defined separator (default _): 12_35
