@@ -56,7 +56,7 @@ Can be used to generate sql for **Elasticsearch**.
 
    (with relations in different sheets) controlled via request header `Accept application/xls or application/json`
 
--  **multi sorting on the resource's columns and on its agregations**
+-  **multi sorting on the resource's columns and on its agregations and default sort**
 
 -  **in header query**
 
