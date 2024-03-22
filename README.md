@@ -2,7 +2,7 @@
 ## Url query language lib for RESTful CRUD (micro) services using lumen/laravel 8-9-10-11
 
 ### This is not just another CRUD lib!
-It has built in filtering capabilities that can be used also for mass deleting, so it could be called a CRU**F**D (create, read, updatem, **filter** and delete) lib instead.
+It has built in filtering capabilities that can be used also for mass deleting, so it could be called a CRU**F**D (create, read, update, **filter** and delete) lib instead.
 
 #### Build RESTful services with lightning speed for any number of resources and relations using rest crud library that offers revolutionary filtering (and aggregating) capabilities for resources and their relations.
 
