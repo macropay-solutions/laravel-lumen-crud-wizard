@@ -110,7 +110,7 @@ Can be used to generate sql for **Elasticsearch**.
   
     contains (not fulltext search),
 
-- **pagination** (LengthAwarePaginator as default or Paginator)
+- **pagination** (LengthAwarePaginator as default or Paginator or CursorPaginator)
 
     page,
   
