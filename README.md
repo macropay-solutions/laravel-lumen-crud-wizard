@@ -114,9 +114,11 @@ Can be used to generate sql for **Elasticsearch**.
 
     page,
   
-    limit,
+    limit, // limit=0 for count only without pages
 
     simplePaginate (request response without total count)
+
+    cursor
     
 -  **conditions on relations**
 
