@@ -162,6 +162,8 @@ Can be used to generate sql for **Elasticsearch**.
 
 #### 9. Error handling/logging
 
+#### 10. Datetime NOT timestamp for created_at and updated_at columns
+
 ## Usage:
 
 Changes required for the first resource on laravel 9 for example:
