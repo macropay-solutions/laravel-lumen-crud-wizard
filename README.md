@@ -72,7 +72,7 @@ Can be used to generate sql for **Elasticsearch**.
     
     maximums,
   
-    distinct column(s) fetching (inclusing custom sql: 'distinct COALESCE(NULLIF(`{table}`.`column`, ""), `{table}`.`column2`) as column)',
+    distinct column(s) fetching (including custom sql: 'distinct COALESCE(NULLIF(`{table}`.`column`, ""), `{table}`.`column2`) as column)',
   
     group by (including relation counts, sums, averages, minimums, maximums, date cast able columns, but if index required on filtering is enabled then first group by column MUST be indexed and not casted; if distincts are used then group by is disregarded),
   
