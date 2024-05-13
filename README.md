@@ -58,7 +58,7 @@ Can be used to generate sql for **Elasticsearch**.
 
 **On request we can issue a test token to be used on a laravel 9 DEMO project that has a dummy db.**
 
-**If interested, please contact us https://macropay.net/contact/**
+**If interested, please [contact us](https://macropay.net/contact/)**
 
 
 
@@ -206,12 +206,12 @@ See [laravel 9 demo project that uses laravel-crud-wizard](https://github.com/ma
 
 ## IV. Try it:
 
+Postman [collection](http://89.40.19.34/laravel-10-crud-test.postman_collection.json). Please [contact us](https://macropay.net/contact/) for a bearer token.
+
 The lib filtering capabilities (url query language) can be tested here http://89.40.19.34/laravel-9/laravel-lumen-crud-wizard or here http://89.40.19.34/laravel-10/laravel-lumen-crud-wizard
-
-Postman [collection](http://89.40.19.34/laravel-10-crud-test.postman_collection.json).
-
-Note that the demo db has over 3.7 milion operations.
 
 ![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/83ff915a-c455-462f-8461-c39797e4fc66)
 
 ![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/30c453e2-6357-4191-9511-4a77dd960385)
+
+Note that the demo db has over 3.7 milion operations.
