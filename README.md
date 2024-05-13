@@ -207,4 +207,5 @@ See [laravel 9 demo project that uses laravel-crud-wizard](https://github.com/ma
 ## IV. Try it:
 
 The lib filtering capabilities (url query language) can be tested here http://89.40.19.34/laravel-9/laravel-lumen-crud-wizard or here http://89.40.19.34/laravel-10/laravel-lumen-crud-wizard
+Postman [collection](http://89.40.19.34/laravel-10-crud-test.postman_collection.json).
 
