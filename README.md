@@ -10,7 +10,39 @@ It has built in filtering capabilities that can be used for listing but also for
 
 For free version see [Laravel Crud Wizard Free](https://github.com/macropay-solutions/laravel-crud-wizard-free)
 
-## You get:
+
+
+I. [You get](#i-you-get)
+
+II. [Features](#ii-features)
+
+II.1. [Create resource](#ii1-create-resource)
+
+II.2. [Read / Get resource](#ii2-readget-resource)
+
+II.3. [Update / Upsert resource](#ii3-updateupsert-resource)
+
+II.4. [Delete resource](#ii4-delete-resource)
+
+II.5. [Bulk delete resource](#ii5-bulk-delete-resource)
+
+II.6. [List resource](#ii6-list-resource)
+
+II.7. [Composite primary key](#ii7-composite-primary-key)
+
+II.8. [Sql debugging/logging](#ii8-sql-debugginglogging)
+
+II.9. [Error handling/logging](#ii9-error-handlinglogging)
+
+II.10. [Datetime NOT timestamp for created_at and updated_at columns](#ii10-datetime-not-timestamp-for-created_at-and-updated_at-columns)
+
+III. [Usage](#iii-usage)
+
+IV. [Try it](#iv-try-it)
+
+
+
+## I. You get:
 
 - crud-wizard-builder: request builder that is used to encode the request in the request initiator project + documentation (min PHP 7.4 or 8.0)
 - laravel-crud-wizard: request parser or translator into sql for the request target project + documentation (min PHP 8.0)
@@ -30,25 +62,25 @@ Can be used to generate sql for **Elasticsearch**.
 
 
 
-## Features:
+## II. Features:
 
-#### 1. Create resource
+#### II.1. Create resource
 - only with allowed fields
 
-#### 2. Read / Get resource
+#### II.2. Read/Get resource
 - also with relations and with appends
 
-#### 3. Update / Upsert resource
+#### II.3. Update/Upsert resource
 - only with allowed fields (or create if not found, if incrementing = false or by custom condition if the identifier is other than the pk)
 
-#### 4. Delete resource
+#### II.4. Delete resource
 - only if allowed
 
-#### 5. Bulk delete resource
+#### II.5. Bulk delete resource
 - only if codded using $service->list({Controlled filters})->delete();
 - not built-in
 
-#### 6. List resources
+#### II.6. List resource
 
 -  **list resource** /resource?...
 
@@ -155,22 +187,22 @@ Can be used to generate sql for **Elasticsearch**.
     In worst case scenario will estimate the count rather than execute the count without index filter
   
 
-#### 7. Composite primary key
+#### II.7. Composite primary key
 - using user defined separator (default _): 12_35
 
-#### 8. Sql debugging/logging
+#### II.8. Sql debugging/logging
 
-#### 9. Error handling/logging
+#### II.9. Error handling/logging
 
-#### 10. Datetime NOT timestamp for created_at and updated_at columns
+#### II.10. Datetime NOT timestamp for created_at and updated_at columns
 
-## Usage:
+## III. Usage:
 
 Changes required for the first resource on laravel 9 for example:
 ![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/eefd0dd6-3762-4241-876a-d32cc27b690d)
 With green are the changes needed for a new resource (except ResourceController).
 
-## Try it:
+## IV. Try it:
 
 The lib filtering capabilities (url query lanhuage) can be tested here http://89.40.19.34/laravel-9/laravel-lumen-crud-wizard or here http://89.40.19.34/laravel-10/laravel-lumen-crud-wizard
 
