@@ -212,3 +212,6 @@ Postman [collection](http://89.40.19.34/laravel-10-crud-test.postman_collection.
 
 Note that the demo db has over 3.7 milion operations.
 
+![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/83ff915a-c455-462f-8461-c39797e4fc66)
+
+![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/30c453e2-6357-4191-9511-4a77dd960385)
