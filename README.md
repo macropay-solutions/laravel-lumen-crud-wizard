@@ -90,7 +90,7 @@ Can be used to generate sql for **Elasticsearch**.
 
    (with relations in different sheets) controlled via request header `Accept application/xls or application/json`
 
--  **multi sorting on the resource's columns and on its agregations and default sort**
+-  **multi sorting on the resource's columns and on its aggregations and default sort**
 
 -  **in header query**
 
@@ -182,7 +182,7 @@ Can be used to generate sql for **Elasticsearch**.
   
     HasOneThrough3LinkTables,
    
--  **MVCC DB "select count(*) from table" slow query solution**
+-  **MVCC DB "select count(*) from table" slow query solution in MySql >= 8**
 
     In worst case scenario will estimate the count rather than execute the count without index filter
   
