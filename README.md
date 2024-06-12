@@ -36,6 +36,8 @@ II.9. [Error handling/logging](#ii9-error-handlinglogging)
 
 II.10. [Datetime NOT timestamp for created_at and updated_at columns](#ii10-datetime-not-timestamp-for-created_at-and-updated_at-columns)
 
+II.11. [Autocomplete on model properties](#ii11-autocomplete-on-model-properties)
+
 III. [Usage](#iii-usage)
 
 IV. [Try it](#iv-try-it)
@@ -195,6 +197,8 @@ Can be used to generate sql for **Elasticsearch**.
 #### II.9. Error handling/logging
 
 #### II.10. Datetime NOT timestamp for created_at and updated_at columns
+
+#### II.11. Autocomplete on model properties
 
 ## III. Usage:
 
