@@ -200,6 +200,13 @@ Can be used to generate sql for **Elasticsearch**.
 
 #### II.11. Autocomplete on model properties
 
+![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/206319cc-157d-4282-8ac1-c78fb720b237)
+
+![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/51e4c334-b7d2-4997-aeac-d2aa1a5e2681)
+
+![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/0b0590e5-e0a5-4a6f-a749-0daad6d3560f)
+
+
 ## III. Usage:
 
 Changes required for the first resource on laravel 9 for example:
