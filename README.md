@@ -206,6 +206,14 @@ Can be used to generate sql for **Elasticsearch**.
 
 ![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/0b0590e5-e0a5-4a6f-a749-0daad6d3560f)
 
+Also if autocomplete is needed on the model itself, them @ mixin can be added on the model:
+
+![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/865f3efd-d1ca-413e-b54c-6dae8de3d74a)
+
+![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/b24c2e88-445a-4ee6-8bf3-545173b3bc05)
+
+Putting @ property on the model is less effective as opposed to this new Attribute class because of the public properties from eloquent model. Also it will avoid polluting the autocomplete with functions and properties from Eloquent model.
+
 
 ## III. Usage:
 
