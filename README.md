@@ -214,6 +214,9 @@ Also if autocomplete is needed on the model itself, them @ mixin can be added on
 
 Putting @ property on the model is less effective as opposed to this new Attribute class because of the public properties from eloquent model. Also it will avoid polluting the autocomplete with functions and properties from Eloquent model.
 
+![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/07c5e84e-f46f-4a65-8a6b-9bd05940da87)
+
+
 
 ## III. Usage:
 
