@@ -108,7 +108,7 @@ Can be used to generate sql for **Elasticsearch**.
   
     distinct column(s) fetching (including custom sql: 'distinct COALESCE(NULLIF(`{table}`.`column`, ""), `{table}`.`column2`) as column)',
   
-    group by (including relation counts, sums, averages, minimums, maximums, date cast able columns, but if index required on filtering is enabled then first group by column MUST be indexed and not casted; if distincts are used then group by is disregarded),
+    group by (columns of the resource plus relation counts and date cast able columns, but if index required on filtering is enabled then first group by column MUST be indexed and not casted; if distincts are used then group by is disregarded),
   
     sub totals,
   
@@ -124,7 +124,7 @@ Can be used to generate sql for **Elasticsearch**.
   
     count relations,
   
-    havings (including relation counts, group count, count distinct, sums, averages, minimums, maximums),
+    havings (including relation counts, group counts, count distincts, sums, averages, minimums, maximums),
 
 -  **filters for resource and relations:**
 
