@@ -124,7 +124,7 @@ Can be used to generate sql for **Elasticsearch**.
   
     count relations,
   
-    havings (including counts, sums, averages, minimums, maximums),
+    havings (including relation counts, group count, count distinct, sums, averages, minimums, maximums),
 
 -  **filters for resource and relations:**
 
