@@ -238,5 +238,9 @@ The lib filtering capabilities (url query language) can be tested WITHOUT bearer
 
 ![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/33f5ff45-a97d-49c1-a6b1-dc6910382fd5)
 
+Use our demo UI url query builder:
+
+![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/8570a5f7-5739-4daa-bccc-9fa0998cd421)
+
 
 Note that the demo db has over 3.7 million operations.
