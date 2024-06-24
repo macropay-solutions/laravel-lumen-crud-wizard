@@ -58,9 +58,9 @@ Can be used to generate sql for **Elasticsearch**.
 
 **The lib is proprietary and it can be used only after an agreement.**
 
-**On request we can issue a test token to be used on a laravel 9 DEMO project that has a dummy db.**
+**On request we can issue a test token to be used on a laravel 9 DEMO project that has a dummy db. For filtering only our [demo page can be used](http://89.40.19.34/laravel-9/laravel-lumen-crud-wizard) that contains UI query builder.**
 
-**If interested, please [contact us](https://macropay.net/contact/)*.*
+**If interested, please [contact us](https://macropay.net/contact/).**
 
 
 
