@@ -10,7 +10,7 @@ It has built in filtering capabilities that can be used for listing but also for
 
 For free version see [Laravel Crud Wizard Free](https://github.com/macropay-solutions/laravel-crud-wizard-free)
 
-See also [Laravel lumen crud wizard decorator](https://github.com/macropay-solutions/laravel-lumen-crud-wizard-decorator).
+See also [Laravel Lumen Crud Wizard Decorator](https://github.com/macropay-solutions/laravel-lumen-crud-wizard-decorator).
 
 
 
