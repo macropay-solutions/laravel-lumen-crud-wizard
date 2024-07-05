@@ -58,7 +58,7 @@ Can be used with **laravel/lumen 8-9-10-11** and **sql** databases (tested on my
 
 Can be used to generate sql for **Elasticsearch**.
 
-**The lib is proprietary and it can be used only after an agreement.**
+**The lib is proprietary and can be used only after an agreement.**
 
 **On request we can issue a test token to be used on a laravel 9 DEMO project that has a dummy db. The url query language can be tested/tried without a token (only for filtering) in our [demo page](http://89.40.19.34/laravel-9/laravel-lumen-crud-wizard).**
 
