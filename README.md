@@ -125,6 +125,8 @@ Can be used to generate sql for **Elasticsearch**.
     group count,
   
     count relations,
+
+    exist relations,
   
     havings (including relation counts, group counts, count distincts, sums, averages, minimums, maximums),
 
