@@ -72,10 +72,11 @@ Can be used to generate sql for **Elasticsearch**.
 - only with allowed fields
 
 #### II.2. Read/Get resource
-- also with relations and with appends
+- also with relations, appends, count relations and exist relations
 
 #### II.3. Update/Upsert resource
 - only with allowed fields (or create if not found, if incrementing = false or by custom condition if the identifier is other than the pk)
+- also with relations, appends, count relations and exist relations
 
 #### II.4. Delete resource
 - only if allowed
