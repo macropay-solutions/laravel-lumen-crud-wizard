@@ -1,4 +1,7 @@
 # laravel-lumen-crud-wizard
+
+![laravel-lumen-crud-wizard-logo](https://github.com/user-attachments/assets/6dab67d1-0d72-4eb8-8dcb-19c6caf87a04)
+
 ## Url query language lib for RESTful CRUD (micro) services using lumen/laravel 8-9-10-11
 
 ### This is not just another CRUD lib!
