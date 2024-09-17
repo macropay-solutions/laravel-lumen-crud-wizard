@@ -25,7 +25,7 @@ II.1. [Create resource](#ii1-create-resource)
 
 II.2. [Read / Get resource](#ii2-readget-resource)
 
-II.3. [Update / Upsert resource](#ii3-updateupsert-resource)
+II.3. [Update / Upsert / Increment resource](#ii3-updateupsertincrement-resource)
 
 II.4. [Delete resource](#ii4-delete-resource)
 
@@ -77,9 +77,10 @@ Can be used to generate sql for **Elasticsearch**.
 #### II.2. Read/Get resource
 - also with relations, appends, count relations and exist relations
 
-#### II.3. Update/Upsert resource
-- only with allowed fields (or create if not found, if incrementing = false or by custom condition if the identifier is other than the pk)
+#### II.3. Update/Upsert/Increment resource
+- only with allowed fields (or create if not found, if (pk) incrementing = false or by custom condition if the identifier is other than the pk)
 - also with relations, appends, count relations and exist relations
+- supports incrementing for the summable columns ONLY. Use "++x[.xx]" or "--x[.xx]". Incrementing can be made together with other updates.
 
 #### II.4. Delete resource
 - only if allowed
