@@ -169,7 +169,7 @@ Can be used to generate sql for **Elasticsearch**.
 
     with appends, (need custom codding)
   
-    with distinct relations,
+    with distinct (columns from) relations,
   
     has relations,
   
