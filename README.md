@@ -179,7 +179,7 @@ Can be used to generate sql for **Elasticsearch**.
   
     doesn't have relations,
   
-    relations filters (except morph relations),
+    relations OPTIMIZED filters (except morph relations),
 
 -  **custom NEW relations**
 
