@@ -43,7 +43,7 @@ II.10. [Datetime NOT timestamp for created_at and updated_at columns](#ii10-date
 
 II.11. [Autocomplete on model properties](#ii11-autocomplete-on-model-properties)
 
-II.12. [Read-only DTO for model](#ii12-read-only-dto--for-model)
+II.12. [Read-only DTO for model](#ii12-read-only-dto-for-model)
 
 III. [Usage](#iii-usage)
 
