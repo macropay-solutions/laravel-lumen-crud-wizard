@@ -43,6 +43,8 @@ II.10. [Datetime NOT timestamp for created_at and updated_at columns](#ii10-date
 
 II.11. [Autocomplete on model properties](#ii11-autocomplete-on-model-properties)
 
+II.12. [Read-only DTO for model](#ii12-read-only-dto--for-model)
+
 III. [Usage](#iii-usage)
 
 IV. [Try it](#iv-try-it)
@@ -86,7 +88,7 @@ Can be used to generate sql for **Elasticsearch**.
 - only if allowed
 
 #### II.5. Bulk delete resource
-- only if codded using $service->list({Controlled filters})->delete();
+- only if coded using $service->list({Controlled filters})->delete();
 - not built-in
 
 #### II.6. List resource
@@ -169,7 +171,7 @@ Can be used to generate sql for **Elasticsearch**.
 
     with/without relations,
 
-    with appends, (need custom codding)
+    with appends, (need custom coding)
   
     with distinct (columns from) relations,
   
@@ -227,6 +229,7 @@ Putting @ property on the model is less effective as opposed to this new Attribu
 
 ![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/07c5e84e-f46f-4a65-8a6b-9bd05940da87)
 
+#### II.12. Read-only DTO for model
 
 
 ## III. Usage:
