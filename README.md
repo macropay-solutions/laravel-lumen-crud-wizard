@@ -105,7 +105,7 @@ Can be used to generate sql for **Elasticsearch**.
 
 -  **in header query**
 
--  **aggregations**
+-  **aggregations** (including on the relation's columns)
 
     sums,
   
