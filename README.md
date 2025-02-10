@@ -105,7 +105,7 @@ Can be used to generate sql for **Elasticsearch**.
 
 -  **in header query**
 
--  **aggregations** (including on the relation's columns)
+-  **aggregations** (**including on the relation's columns**)
 
     sums,
   
@@ -200,6 +200,8 @@ Can be used to generate sql for **Elasticsearch**.
 -  **MVCC DB "select count(*) from table" slow query solution in MySql >= 8**
 
     In worst case scenario will estimate the count rather than execute the count without index filter
+
+-  **Prevent DB blocking via API with long running queries for mysql >= 5.7.4 and mariaDB >= 10.1.1**
   
 
 #### II.7. Composite primary key
