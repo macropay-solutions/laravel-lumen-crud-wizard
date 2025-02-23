@@ -82,7 +82,7 @@ Can be used to generate sql for **Elasticsearch**.
 #### II.3. Update/Upsert/Increment resource
 - only with allowed fields (or create if not found, if (pk) incrementing = false or by custom condition if the identifier is other than the pk)
 - also with relations, appends, count relations and exist relations
-- supports incrementing for the summable columns ONLY. Use "++x[.xx]" or "--x[.xx]". Incrementing can be made together with other updates. Incrementing is possible only on existing resource.
+- supports **incrementing** for the summable columns ONLY. Use "++x[.xx]" or "--x[.xx]". Incrementing can be made together with other updates. Incrementing is possible only on existing resource.
 
 #### II.4. Delete resource
 - only if allowed
