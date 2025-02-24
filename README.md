@@ -104,6 +104,8 @@ Can be used to generate sql for **Elasticsearch**.
 -  **multi sorting on the resource's columns and on its aggregations and default sort**
 
 -  **in header query**
+  
+-  **to avoid 499 http code in access logs and DB block via api call, the DB select statements are restricted with a timeout for mysql >= 5.7.4 and mariadb >= 10.1.1**
 
 -  **aggregations** (**including on the relation's columns**)
 
