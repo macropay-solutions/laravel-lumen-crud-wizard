@@ -65,7 +65,7 @@ Can be used to generate sql for **Elasticsearch**.
 
 **The lib is proprietary and can be used only after an agreement.**
 
-**On request we can issue a test token to be used on a laravel 9 DEMO project that has a dummy db. The url query language can be tested/tried without a token (only for filtering) in our [demo page](http://89.40.19.34/laravel-9/laravel-lumen-crud-wizard).**
+**On request we can issue a test token to be used on a laravel 9 DEMO project that has a dummy db. The url query language can be tested/tried without a token (only for filtering) in our [demo page](https://laravel-crud-wizard.com/laravel-9/laravel-lumen-crud-wizard).**
 
 **If interested, please [contact us](https://macropay.net/contact/).**
 
@@ -246,9 +246,9 @@ See [laravel 9 demo project that uses laravel-crud-wizard](https://github.com/ma
 
 ## IV. Try it:
 
-Postman [collection](http://89.40.19.34/laravel-10-crud-test.postman_collection.json). Please [contact us](https://macropay.net/contact/) for a bearer token.
+Postman [collection](https://laravel-crud-wizard.com/laravel-10-crud-test.postman_collection.json). Please [contact us](https://macropay.net/contact/) for a bearer token.
 
-The lib filtering capabilities (url query language) can be tested WITHOUT bearer token on [laravel 9 demo page](http://89.40.19.34/laravel-9/laravel-lumen-crud-wizard) or [laravel 10 demo page](http://89.40.19.34/laravel-10/laravel-lumen-crud-wizard)
+The lib filtering capabilities (url query language) can be tested WITHOUT bearer token on [laravel 9 demo page](https://laravel-crud-wizard.com/laravel-9/laravel-lumen-crud-wizard) or [laravel 10 demo page](https://laravel-crud-wizard.com/laravel-10/laravel-lumen-crud-wizard)
 
 ![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/83ff915a-c455-462f-8461-c39797e4fc66)
 
