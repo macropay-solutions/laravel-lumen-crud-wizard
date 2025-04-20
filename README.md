@@ -59,7 +59,7 @@ IV. [Try it](#iv-try-it)
 
 The code follows **PSR 12** coding standard and **DRY** principle.
 
-Can be used with **laravel/lumen 8-9-10-11** and **sql** databases (tested on mysql/mariadb but can also support sqlite, sqlsrv, pgsql).
+Can be used with **laravel/lumen 8-9-10-11-12** and **sql** databases (tested on mysql/mariadb but can also support sqlite, sqlsrv, pgsql).
 
 Can be used to generate sql for **Elasticsearch**.
 
