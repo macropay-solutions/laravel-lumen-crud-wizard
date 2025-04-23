@@ -204,6 +204,8 @@ Can be used to generate sql for **Elasticsearch**.
     In worst case scenario will estimate the count rather than execute the count without index filter
 
 -  **Prevent DB blocking via API with long running queries for mysql >= 5.7.4 and mariaDB >= 10.1.1**
+
+-  **retroactive working StreamedJsonResponse https://github.com/laravel/framework/discussions/55509**
   
 
 #### II.7. Composite primary key
