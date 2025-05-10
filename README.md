@@ -1,4 +1,4 @@
-# laravel-lumen-crud-wizard
+# laravel-lumen-crud-wizard MaravelQL
 
 ![laravel-lumen-crud-wizard-logo](https://github.com/user-attachments/assets/6dab67d1-0d72-4eb8-8dcb-19c6caf87a04)
 
