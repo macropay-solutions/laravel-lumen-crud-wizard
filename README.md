@@ -54,7 +54,7 @@ IV. [Try it](#iv-try-it)
 ## I. You get:
 
 - [laravel-crud-wizard-client/maravel-rest-wizard-client](https://github.com/macropay-solutions/laravel-lumen-crud-wizard-client): request builder that is used to encode the request in the request initiator project + documentation (min PHP 7.4 or 8.0) capable of async calls for count to speed up the list on big tables
-- laravel-crud-wizard: request parser or translator into sql for the request target project + documentation (min PHP 8.0)
+- laravel-crud-wizard/maravel-rest-wizard: request parser or translator into sql for the request target project + documentation (min PHP 8.0)
 - [laravel 9 demo project that uses laravel-crud-wizard](https://github.com/macropay-solutions/laravel-crud-wizard-demo)
 
 The code follows **PSR 12** coding standard and **DRY** principle.
