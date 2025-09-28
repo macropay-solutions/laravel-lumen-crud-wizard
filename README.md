@@ -7,7 +7,7 @@
 ### This is not just another CRUD lib!
 It has built in filtering capabilities that can be used for listing but also for mass deleting, so it could be called a CRU**F**D (create, read, update, **filter** and delete) lib instead.
 
-It was built ONLY with good old human inteligence.
+It was built ONLY with good old human intelligence.
 
 #### Build RESTful services with lightning speed for any number of resources and relations using rest crud library that offers revolutionary filtering (and aggregating) capabilities for resources and their relations.
 
