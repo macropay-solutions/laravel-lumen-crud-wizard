@@ -109,7 +109,7 @@ Can be used to generate sql for **Elasticsearch**.
   
 -  **to avoid 499 http code in access logs and DB block via api call, the DB select statements are restricted with a timeout for mysql >= 5.7.4 and mariadb >= 10.1.1**
 
--  **aggregations** (**including on the relation's columns**)
+-  **aggregations** (**including on the FILTERED relations' columns**)
 
     sums,
   
