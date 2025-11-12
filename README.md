@@ -229,7 +229,7 @@ Supports also **Elasticsearch** indexes (instead of DB tables) as resources with
 
 ![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/0b0590e5-e0a5-4a6f-a749-0daad6d3560f)
 
-Also if autocomplete is needed on the model itself, them @ mixin can be added on the model:
+Also if autocomplete is needed on the model itself, then @ mixin can be added on the model:
 
 ![image](https://github.com/macropay-solutions/laravel-lumen-crud-wizard/assets/153634237/865f3efd-d1ca-413e-b54c-6dae8de3d74a)
 
