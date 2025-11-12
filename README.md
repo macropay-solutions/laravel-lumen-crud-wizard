@@ -241,7 +241,7 @@ Putting @ property on the model is less effective as opposed to this new Attribu
 
 #### II.12. Read-only DTO for model
 
-#### II.13 Prevent updates to model
+#### II.13. Prevent updates to model
 
 
 ## III. Usage:
