@@ -101,9 +101,9 @@ Supports also **Elasticsearch** indexes (instead of DB tables) as resources with
 
 -  **list the resource's relation (as a resource)** /resource/{pk}/{relationName}?...
 
--  **list response as JSON or XLS**
+-  **list response as JSON or JSONL**
 
-   (with relations in different sheets) controlled via request header `Accept application/xls or application/json`
+    controlled via request header ` application/json` and limit=-1
 
 -  **multi sorting on the resource's columns and on its aggregations and default sort**
 
