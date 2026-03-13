@@ -1,6 +1,7 @@
 # laravel-lumen-crud-wizard - MaravelQL - maravel-rest-wizard
 
-![laravel-lumen-crud-wizard-logo](https://github.com/user-attachments/assets/6dab67d1-0d72-4eb8-8dcb-19c6caf87a04)
+![1_9gPPofZEi8eKSFMrEMIF5w7](https://github.com/user-attachments/assets/75e1662e-d8e5-4b7c-b218-f95ce06d7ebf)
+
 
 ## Url query language lib for RESTful CRUD (micro) services using lumen/laravel 8-9-10-11-12, maravel/maravelith 10
 
