@@ -271,3 +271,5 @@ Use our demo UI url query builder:
 
 
 Note that the demo db has over 3.7 million operations.
+
+# `\Illuminate\Database\Eloquent\Relations\Concerns\CanBeOneOfMany` trait features are not supported!
