@@ -273,3 +273,7 @@ Use our demo UI url query builder:
 Note that the demo db has over 3.7 million operations.
 
 # `\Illuminate\Database\Eloquent\Relations\Concerns\CanBeOneOfMany` trait features are not improved! They will be deletaged to Eloquent in both /res/{id}/rel and filter by relation api calls, resulting in slower queries. They can be avoided by not using this trait's features.
+An alternative would be to use aggregation on relation. operations resource with products relation example:
+
+    aggregates[maxsRelations][products][]=id // or created_at
+    &aggregates[maxsRelationsFilters][products][currency][in][]=EUR
