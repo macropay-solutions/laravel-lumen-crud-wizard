@@ -275,5 +275,41 @@ Note that the demo db has over 3.7 million operations.
 # `\Illuminate\Database\Eloquent\Relations\Concerns\CanBeOneOfMany` trait features are not improved! They will be deletaged to Eloquent in both /res/{id}/rel and filter by relation api calls, resulting in slower queries. They can be avoided by not using this trait's features.
 An alternative would be to use aggregation on relation. operations resource with products relation example:
 
-    aggregates[maxsRelations][products][]=id // or created_at
-    &aggregates[maxsRelationsFilters][products][currency][in][]=EUR
+```GET /operations?aggregates[maxsRelations][products][0]=id&aggregates[maxsRelationsFilters][products][currency][in][0]=EUR```
+
+Results in
+```sql
+"13.52 ms on 3.7 M rows, sql: select `operations`.*, (
+    select max(`products`.`id`) 
+    from `products` inner join `operations_products_pivot` 
+     on `operations_products_pivot`.`product_id` = `products`.`id`
+    where `operations`.`id` = `operations_products_pivot`.`operation_id`
+     and `products`.`currency` = 'EUR'
+) as `products__id_max` from `operations` order by `created_at` desc limit 10 offset 0"
+```
+```json
+        {
+            "id": 3748918,
+            "parent_id": 3,
+            "client_id": 68378,
+            "currency": "EUR",
+            "value": "27.00",
+            "created_at": "2024-01-17 11:04:57",
+            "updated_at": "2026-02-19 16:40:57",
+            "products__id_max": null,
+            "primary_key_identifier": 3748918
+        },
+        {
+            "id": 3748911,
+            "parent_id": 3,
+            "client_id": 91963,
+            "currency": "EUR",
+            "value": "24.00",
+            "created_at": "2024-01-17 11:04:57",
+            "updated_at": "2025-08-04 13:26:03",
+            "products__id_max": 61107,
+            "primary_key_identifier": 3748911
+        },
+```
+
+Then you define a relation based on products__id_max and you eager load it.
